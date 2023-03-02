@@ -1,0 +1,59 @@
+Modelos de Rede diferentes de cliente servidor.
+
+Remote terminal
+Yes, remote-terminal is another type of communication model. In a remote-terminal model, a user interacts with a remote computer or server through a terminal or console. The terminal sends input commands to the remote computer, and the computer sends back output results to the terminal for display. This model is often used in remote access systems, where users need to access resources or services located on a remote machine.
+
+Remote-terminal communication can be achieved through a variety of protocols, including SSH (Secure Shell), Telnet, and RDP (Remote Desktop Protocol). In each case, the user interacts with the remote machine through a text-based or graphical interface, and the remote machine processes the user's commands and returns the results.
+
+Remote-terminal communication is often used in IT environments for server administration, software development, and other tasks that require access to remote machines.
+
+
+Server encapsulates resources and
+the application:
+– Physical (CPUs, memory)
+– Data and algorithms
+– User interface
+
+Asymmetric:
+– Server is passive, well known entity,
+heavy-weight and self-contained
+application
+
+Multi-tier
+Yes, multi-tier is another type of communication model. In a multi-tier model, an application is divided into separate tiers or layers, each of which performs a specific function. The tiers are arranged in a hierarchical structure, with each tier communicating with the adjacent tiers above and below it.
+
+The three tiers in a typical multi-tier model are:
+
+    Presentation Tier: This tier is responsible for presenting data to the user through a user interface, such as a web browser or mobile app.
+
+    Application Tier: This tier contains the business logic and application code that processes user requests and generates responses.
+
+    Data Tier: This tier stores and retrieves data from a database or other data storage system.
+
+Each tier in a multi-tier model communicates with the adjacent tiers using well-defined protocols and interfaces. This allows the application to be easily modified or scaled as needed, without affecting other parts of the system.
+
+Multi-tier communication models are often used in large-scale enterprise applications, such as e-commerce systems, customer relationship management (CRM) systems, and banking applications. They provide a structured approach to building complex applications and allow for easy maintenance, scalability, and flexibility.
+
+Event-based
+
+
+Peer-to-peer
+
+
+Hybrid
+
+
+---------- Não tenho a certeza a partir daqui --------
+
+Edge and Fog computing
+Yes, edge and fog computing are two related types of communication models that are gaining popularity in the field of distributed computing.
+
+Edge computing involves processing data and running applications at or near the edge of the network, where the data is generated. This allows for faster response times and reduced network traffic, as data does not need to be sent to a central server for processing. Edge computing devices, such as sensors and IoT devices, are often small and low-powered, and can perform basic processing tasks locally before sending data to a central server for further analysis.
+
+Fog computing is a related model that extends the capabilities of edge computing by providing a layer of intermediate computing resources between the edge and the cloud. In a fog computing model, data is processed at the edge, as well as at intermediate fog nodes located closer to the cloud. This allows for more complex processing tasks to be performed at the edge, while still maintaining the scalability and flexibility of cloud computing.
+
+Both edge and fog computing models involve distributed communication between multiple devices and nodes, and require well-defined communication protocols and interfaces to ensure efficient and secure communication. These models are often used in applications such as IoT, smart cities, and industrial automation, where real-time data processing and decision-making are critical.
+
+Message-oriented Middelware (MoM)
+
+Service vs. resource-oriented
